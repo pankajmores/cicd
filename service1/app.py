@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Service 1"
+    return "Hello from Service 1 after cicd pipeline"
 
 @app.route("/call-service2")
 def call_service2():
